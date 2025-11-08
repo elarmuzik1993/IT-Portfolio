@@ -14,7 +14,7 @@ export default function Footer() {
               Built with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> using Next.js & Tailwind CSS
             </p>
             <p className="text-gray-500 text-sm mt-2">
-              © {currentYear} Boris. All rights reserved.
+              © {currentYear} Boris Mishchenko. All rights reserved.
             </p>
           </div>
 

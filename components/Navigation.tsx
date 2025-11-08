@@ -48,7 +48,7 @@ export default function Navigation() {
             }}
             className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent"
           >
-            Boris
+            Boris Mishchenko
           </a>
 
           {/* Desktop Navigation */}

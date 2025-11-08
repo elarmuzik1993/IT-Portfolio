@@ -172,7 +172,7 @@ MIT License - feel free to use this portfolio template for your own projects.
 For questions or feedback:
 - Email: your.email@example.com
 - GitHub: [@elarmuzik1993](https://github.com/elarmuzik1993)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourusername)
+- LinkedIn: [Boris Mishchenko](https://linkedin.com/in/yourusername)
 
 ---
 

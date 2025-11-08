@@ -11,7 +11,7 @@ export default function Hero() {
     <section className="min-h-screen flex items-center justify-center px-6 relative">
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-          Boris
+          Boris Mishchenko
         </h1>
         <h2 className="text-2xl md:text-4xl font-light mb-8 text-gray-300">
           Full Stack Developer
