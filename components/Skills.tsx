@@ -15,8 +15,12 @@ export default function Skills() {
       skills: ["Audio DSP", "VST3 Development", "Web Audio API", "MIDI", "Music Theory", "Sound Design"]
     },
     {
+      category: "Design",
+      skills: ["UI/UX Design", "Figma", "Responsive Design", "Typography", "Color Theory", "Prototyping", "Wireframing"]
+    },
+    {
       category: "Development Tools",
-      skills: ["Git", "GitHub", "Visual Studio", "VS Code", "Figma", "Projucer", "npm"]
+      skills: ["Git", "GitHub", "Visual Studio", "VS Code", "Projucer", "npm"]
     },
     {
       category: "AI & Modern Workflow",
@@ -24,7 +28,7 @@ export default function Skills() {
     },
     {
       category: "Concepts & Practices",
-      skills: ["Responsive Design", "API Integration", "Performance Optimization", "UI/UX Design", "Agile Development", "Version Control"]
+      skills: ["API Integration", "Performance Optimization", "Agile Development", "Version Control", "Testing", "Debugging"]
     }
   ];
 
