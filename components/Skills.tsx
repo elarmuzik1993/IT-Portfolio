@@ -15,12 +15,16 @@ export default function Skills() {
       skills: ["Audio DSP", "VST3 Development", "Web Audio API", "MIDI", "Music Theory", "Sound Design"]
     },
     {
-      category: "Tools & Technologies",
-      skills: ["Git", "Visual Studio", "VS Code", "Figma", "Projucer", "npm"]
+      category: "Development Tools",
+      skills: ["Git", "GitHub", "Visual Studio", "VS Code", "Figma", "Projucer", "npm"]
     },
     {
-      category: "Concepts",
-      skills: ["Responsive Design", "API Integration", "Performance Optimization", "UI/UX Design", "Agile Development"]
+      category: "AI & Modern Workflow",
+      skills: ["Claude AI", "ChatGPT", "GitHub Copilot", "AI-Assisted Development", "Prompt Engineering", "AI Code Review"]
+    },
+    {
+      category: "Concepts & Practices",
+      skills: ["Responsive Design", "API Integration", "Performance Optimization", "UI/UX Design", "Agile Development", "Version Control"]
     }
   ];
 
@@ -54,15 +58,63 @@ export default function Skills() {
           ))}
         </div>
 
-        <div className="mt-16 p-8 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-xl">
-          <h3 className="text-2xl font-bold mb-4 text-center">
-            Always Learning
-          </h3>
-          <p className="text-gray-300 text-center max-w-3xl mx-auto leading-relaxed">
-            I'm constantly expanding my skill set and staying up-to-date with the latest technologies.
-            Currently exploring advanced audio processing techniques, machine learning for music generation,
-            and modern web performance optimization strategies.
-          </p>
+        <div className="mt-16 space-y-8">
+          {/* AI-Enhanced Workflow Section */}
+          <div className="p-8 bg-gradient-to-r from-purple-500/10 to-pink-500/10 border border-purple-500/20 rounded-xl">
+            <h3 className="text-2xl font-bold mb-4 text-center text-purple-400">
+              AI-Enhanced Development Workflow
+            </h3>
+            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+              <div className="space-y-3">
+                <h4 className="font-semibold text-gray-200 flex items-center gap-2">
+                  <span className="text-purple-400">→</span> Code Generation & Optimization
+                </h4>
+                <p className="text-gray-400 text-sm leading-relaxed">
+                  Leveraging Claude AI and GitHub Copilot for rapid prototyping, code suggestions,
+                  and intelligent refactoring to accelerate development cycles.
+                </p>
+              </div>
+              <div className="space-y-3">
+                <h4 className="font-semibold text-gray-200 flex items-center gap-2">
+                  <span className="text-purple-400">→</span> AI-Assisted Problem Solving
+                </h4>
+                <p className="text-gray-400 text-sm leading-relaxed">
+                  Using AI tools for debugging, architecture design, and exploring best practices
+                  across audio DSP, web development, and music technology.
+                </p>
+              </div>
+              <div className="space-y-3">
+                <h4 className="font-semibold text-gray-200 flex items-center gap-2">
+                  <span className="text-purple-400">→</span> Documentation & Learning
+                </h4>
+                <p className="text-gray-400 text-sm leading-relaxed">
+                  AI-powered research for staying current with JUCE, React ecosystem updates,
+                  and emerging audio processing techniques.
+                </p>
+              </div>
+              <div className="space-y-3">
+                <h4 className="font-semibold text-gray-200 flex items-center gap-2">
+                  <span className="text-purple-400">→</span> Version Control Excellence
+                </h4>
+                <p className="text-gray-400 text-sm leading-relaxed">
+                  GitHub-centric workflow with AI-generated commit messages, PR reviews,
+                  and automated code quality checks.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Always Learning Section */}
+          <div className="p-8 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-xl">
+            <h3 className="text-2xl font-bold mb-4 text-center">
+              Always Learning
+            </h3>
+            <p className="text-gray-300 text-center max-w-3xl mx-auto leading-relaxed">
+              I'm constantly expanding my skill set and staying up-to-date with the latest technologies.
+              Currently exploring advanced audio processing techniques, machine learning for music generation,
+              modern web performance optimization strategies, and the evolving landscape of AI-assisted development.
+            </p>
+          </div>
         </div>
       </div>
     </section>
