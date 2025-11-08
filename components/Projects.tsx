@@ -66,11 +66,11 @@ export default function Projects() {
               className="group bg-[var(--background)] border border-[var(--border)] rounded-xl overflow-hidden hover:border-blue-500 transition-all duration-300 transform hover:scale-[1.02] hover:shadow-2xl hover:shadow-blue-500/10"
             >
               {project.image && (
-                <div className="relative h-80 bg-gradient-to-br from-gray-900 to-black overflow-hidden">
+                <div className="relative h-72 bg-gradient-to-br from-gray-900 to-black overflow-hidden flex items-center justify-center">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-fill group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[var(--background)] via-transparent to-transparent opacity-40"></div>
                 </div>
