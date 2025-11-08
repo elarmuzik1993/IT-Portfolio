@@ -10,6 +10,7 @@ interface Project {
   liveUrl?: string;
   githubUrl?: string;
   category: string;
+  image?: string;
 }
 
 export default function Projects() {
@@ -20,6 +21,7 @@ export default function Projects() {
       description: "A professional JUCE audio plugin featuring multi-stage distortion, LA2A-style optical compression, and advanced signal processing. Includes 4x oversampling, band-split processing, and real-time oscilloscope visualization.",
       tags: ["C++", "JUCE", "VST3", "Audio DSP", "Visual Studio"],
       category: "Audio Engineering",
+      image: "/distortion-plugin.png",
     },
     {
       title: "Melody Generator",
@@ -44,6 +46,8 @@ export default function Projects() {
       tagline: "Luxury Business Landing Page",
       description: "Professional landing page for London's premier fine art logistics company. Features multi-language support (5 languages), elegant animations, and working contact form. Built with React and Tailwind CSS for optimal performance.",
       tags: ["React", "Tailwind CSS", "Multi-language", "Responsive", "i18n"],
+      liveUrl: "https://elarmuzik1993.github.io/Aurora-Fine-Art/",
+      githubUrl: "https://github.com/elarmuzik1993/Aurora-Fine-Art",
       category: "Web Development",
     },
   ];
@@ -61,6 +65,16 @@ export default function Projects() {
               key={index}
               className="group bg-[var(--background)] border border-[var(--border)] rounded-xl overflow-hidden hover:border-blue-500 transition-all duration-300 transform hover:scale-[1.02] hover:shadow-2xl hover:shadow-blue-500/10"
             >
+              {project.image && (
+                <div className="relative h-64 bg-gradient-to-br from-gray-900 to-black overflow-hidden">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[var(--background)] via-transparent to-transparent opacity-60"></div>
+                </div>
+              )}
               <div className="p-8">
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex-1">
